@@ -39,6 +39,6 @@ def resize_and_save_images(input_folder, output_folder, target_size=(224, 224)):
     print("All images have been resized and saved.")
 
 # Example usage
-input_folder = "E:/SnapCart/dataset/train/electronics"
-output_folder = "E:/SnapCart/dataset/train/electronics_resized"
+input_folder = "E:/SnapCart/dataset/train/groceries"
+output_folder = "E:/SnapCart/dataset/train/groceries_resized"
 resize_and_save_images(input_folder, output_folder)

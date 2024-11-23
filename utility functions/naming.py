@@ -36,4 +36,4 @@ def rename_images(directory, category):
     print(f"Renaming completed for category: {category}")
 
 # Example Usage
-rename_images("E:/SnapCart/dataset/train/electronics", "Electronics")
+rename_images("E:/SnapCart/dataset/train/groceries", "Groceries")
